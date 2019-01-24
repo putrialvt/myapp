@@ -1,0 +1,27 @@
+body {
+ font-size: large;
+}
+.container {
+ display: grid;
+ grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
+}
+.operand1 {
+ grid-column: 1/2;
+ background: lavender;
+}
+.operator {
+ grid-column: 2/3;
+ background: red;
+}
+.operand2 {
+ grid-column: 3/4;
+ background: lavender;
+}
+.equal{
+ grid-column: 4/5;
+ background: red;
+}
+.hasil {
+ grid-column: 5/-1;
+ background: lavender;
+}

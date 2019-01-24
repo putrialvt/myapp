@@ -1,0 +1,33 @@
+.container {
+ display: grid;
+ height: 100%;
+ grid-template-columns : repeat(4,1fr);
+ grid-template-rows: 50px 50px auto 50px;
+}
+.menu {
+ background: lightblue;
+ grid-column:1/-1;
+}
+.header {
+ background: lavenderblush;
+ grid-column:1/-1;
+}
+.sidebar {
+ background: lightyellow;
+ grid-column:1/2;
+}
+.konten {
+ background: lightpink;
+ grid-column: 2/-1;
+ display: grid;
+ grid-gap: 4px;
+}
+.subkonten {
+	background: lightgrey;
+	grid-column: 1/-1;
+}
+.footer {
+ background: lightcyan;
+ grid-column:1/-1;
+ text-align:center;
+}

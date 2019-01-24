@@ -1,0 +1,78 @@
+html, body, #mapid{
+	height:100%;
+	width: 100%;
+}
+body { 
+    background: #ECEFF1; 
+    color: rgba(0,0,0,0.87); 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+a {
+  text-decoration: none; 
+}
+.container {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 1fr;
+    grid-template-areas: "peta-section" "desc-section"; 
+}
+.container .peta-section {
+    grid-area: peta-section;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.container .desc-section {
+    grid-area: desc-section;
+    display: flex;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: "gambar" "review"; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.container .desc-section .gambar {
+    grid-area: gambar;
+    overflow: hidden;
+}
+.container .desc-section .gambar img {
+    width: 100%;
+    min-height: 100%;
+}
+.container .desc-section .review {
+    grid-area: review;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.menu {
+    height: 10%;
+    width: 100%;
+    position: static;
+    bottom: top;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+.menu .list {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.menu .list a {
+    color: #333;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.menu .list a.active {
+    color: #e4a614; 
+}

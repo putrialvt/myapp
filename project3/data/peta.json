@@ -1,0 +1,21 @@
+{
+	"places":[
+	{
+		"lokasi": [-6.186895, 106.825247],
+		"sponsor":"Sate Pak Heri",
+		"gambar":"img/sate.jpg",
+		"review":"Tempat ini sangat dianjurkan bagi pecinta Sate Goat. Rasa enak, sambal mantap, membuat toko ini tidak dilewatkan untuk pecinta sate di jakarta"
+	},
+	{
+		"lokasi": [-6.185047, 106.824952],
+		"sponsor":"Soto Ceker Pak Gendut",
+		"gambar":"img/soto.jpg",
+		"review":"Suka bgt sama soto cekernya. Cekernya bersih tanpa kuku dan rasanya enak. Saya biasanya mkn soto ceker disini sama cici saya. "
+	},
+	{
+		"lokasi": [-6.184310, 106.825070],
+		"sponsor":"Pempek Cawan Putih",
+		"gambar":"img/pempek.jpg",
+		"review":"Resto ini tempatnya cukup nyaman dengan layanan yang baik. Tersedia menu seperti Pempek lenjer besar, Pempek kapal selam, Pempek telur, Pempek adaan, Pempek keriting, Tekwan, Pindang tulang iga sapi, Pindang ikan"
+	}
+]}

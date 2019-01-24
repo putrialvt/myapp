@@ -1,0 +1,50 @@
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Project MWS - Putri Alvita</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/google-dev-logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/newcss.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-section">
+        <img class="google-logo" src="assets/images/google-dev-logo.png"/>
+        <span class="google-caption"><b>Google</b> Developer Kejar</span>
+        <span class="author-caption">By Putri Alvita</span>
+      </div>
+      <div class="menu-section">
+        <a class="menu-item" href="project1/index.html">
+          <img src="assets/images/icon/budget.svg">
+          <span>Calculator</span>
+        </a>
+                
+        <a class="menu-item" href="project3/index.html">
+          <img src="assets/images/icon/stand.svg">
+          <span>Kuliner</span>
+        </a>
+                
+        <a class="menu-item" href="project4/index.html">
+          <img src="assets/images/icon/girl.svg">
+          <span>Profil</span>
+        </a>
+
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+if ('serviceWorker' in navigator) {
+  // if browser support, register the service serviceWorker
+  navigator.serviceWorker
+    .register('/sw.js') // promise function need then function async, scope just a option .register('/sw.js', {scope: '/'})
+    .then(function(){
+      // if the register function has done
+      console.log('service worker is registered');
+    });
+}
+</script> 
